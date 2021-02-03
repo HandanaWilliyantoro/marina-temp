@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+09:38:33	6658/6658	---M-Z	200	added ('OK')	text/html	date:Wed,%2003%20Feb%202021%2002:38:32%20GMT	https://marina-dewata.webflow.io/	marina-dewata.webflow.io/index.html	(from )
+09:38:33	0/0	---M--	504	error ('GATEWAY_TIMEOUT')	text/html	date:Wed,%2003%20Feb%202021%2002:38:32%20GMT	https://marina-dewata.webflow.io/robots.txt		(from )
