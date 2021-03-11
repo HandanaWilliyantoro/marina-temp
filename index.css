@@ -9319,3 +9319,18 @@
      font-style: normal;
      font-display: swap;
    }
+
+@media (min-width: 375px) and (max-width: 390px) {
+  .image-52.slider-image-boy {
+    bottom: -25%;
+  }
+  .div-block-33.art-village.ndnsdnsd {
+    top: 35%;
+  }
+  .div-block-33.ap.ppwoekapokvp {
+    top: 53%;
+  }
+  .div-block-31.cinema1.excenter {
+    top: 10%;
+  }
+}
