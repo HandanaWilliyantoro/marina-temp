@@ -9821,3 +9821,17 @@
 .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd.fffr {
   bottom: 0%;
 }
+
+@media screen and (max-width: 479px){
+  .div-block-17 {
+    height: 1200px;
+  }
+
+  .text-block-19 {
+    bottom: 38%;
+  }
+
+  .image-18 {
+    top: 35%;
+  }
+}
