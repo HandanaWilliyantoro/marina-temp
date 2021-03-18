@@ -9822,16 +9822,54 @@
   bottom: 0%;
 }
 
+.div-block-19.rororor {
+  top: 50%;
+}
+
+.div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+  top: 50%;
+}
+
+.heading-9 {
+  height: auto;
+}
+
+.heading-10 {
+  height: auto;
+}
+
 @media screen and (max-width: 479px){
   .div-block-17 {
     height: 1200px;
   }
 
   .text-block-19 {
-    bottom: 38%;
+    bottom: 15%;
   }
 
   .image-18 {
     top: 35%;
+  }
+
+  .div-block-19.rororor {
+    top: 57%;
+  }
+  
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 80%;
+  }
+
+  .text-block-19.text-resort.text-hotel.hotel-res.totot.asd.texter{
+    bottom: 43%;
+  }
+
+  .heading-7.header {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .heading-8.hotel-resort{
+    margin-top: 5px;
   }
 }
