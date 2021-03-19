@@ -109,7 +109,12 @@
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
-  align-items: flex-end;
+  align-items: center;
+  position: fixed !important;
+  top: 0%;
+  background-color: #062640;
+  height: 100px;
+  z-index: 1000000;
 }
 
 .nav {
@@ -147,7 +152,7 @@
 
 .image-2 {
   width: 200px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: 100px;
   font-size: 20px;
@@ -2010,9 +2015,11 @@
 
   .div-block.container-header {
     overflow: hidden;
-    height: 1200px;
+    height: 1300px;
     -o-object-fit: cover;
     object-fit: cover;
+    padding-top: 150px;
+    margin-top: 100px;
   }
 
   .heading-2.traversing-sea {
@@ -2915,7 +2922,7 @@
 
   .text-block-24.tb-ma.dfdfdf {
     left: 20%;
-    bottom: 1%;
+    bottom: 3%;
     width: 60%;
   }
 
@@ -3694,7 +3701,7 @@
 
   .div-block.container-header {
     overflow: visible;
-    height: 1200px;
+    height: 1250px;
     max-width: 100%;
     background-position: 50% 0%;
     background-size: 100vw;
@@ -5091,12 +5098,14 @@
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv {
     bottom: 3%;
+    width: 70%;
+    left: 15%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.fdfdf._0998744 {
-    left: 35%;
-    bottom: 2%;
-    width: 30%;
+    left: 25%;
+    bottom: 3%;
+    width: 50%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd {
@@ -5116,13 +5125,14 @@
   }
 
   .text-block-24.more-desc-1._4-desc {
-    left: 35%;
+    left: 20%;
     bottom: 3%;
     width: 30%;
   }
 
   .text-block-24.more-desc-1._4-desc.vfvfgv.ddfdfdfd {
-    bottom: 0%;
+    bottom: 3%;
+    width: 60%;
   }
 
   .text-block-24.more-desc-1.ppopoo {
@@ -5157,7 +5167,9 @@
   }
 
   .text-block-24.axx.shippy.sfsff.fffrr {
-    bottom: 2%;
+    bottom: 3%;
+    width: 70%;
+    left: 15%;
   }
 
   .text-block-24.tb-ma {
@@ -5165,7 +5177,7 @@
   }
 
   .text-block-24.rfrff.porplvplvprlv {
-    bottom: 2%;
+    bottom: 3%;
   }
 
   .div-block-25 {
@@ -5881,11 +5893,11 @@
   }
 
   .div-block-37 {
-    height: 1360px;
+    height: 1380px;
   }
 
   .div-block-37.cwme {
-    height: 1300px;
+    height: 1350px;
   }
 
   .paragraph {
@@ -6690,7 +6702,7 @@
   }
 
   .block-business-center.block-wedding.block-farm.block-chapel {
-    bottom: 10%;
+    bottom: 11%;
     font-size: 30px;
   }
 
@@ -6805,7 +6817,9 @@
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv {
-    bottom: 2%;
+    bottom: 3%;
+    width: 70%;
+    left: 15%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd.fffr {
@@ -9827,7 +9841,7 @@
 }
 
 .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd.fffr {
-  bottom: 0%;
+  bottom: 3%;
 }
 
 .div-block-19.rororor {
@@ -9847,7 +9861,7 @@
 }
 
 .image-69.cs-1-left, .image-69.cs-2-left, .images, .image-69 {
-  bottom: 35%;
+  bottom: 40%;
 }
 
 @media screen and (max-width: 479px){
