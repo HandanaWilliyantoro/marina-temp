@@ -82,7 +82,8 @@
   </div>
   <div style="margin-top: 0px;" class="div-block container-header">
     <div>
-      <div data-w-id="a98e268d-91f7-4f71-6842-6c2e0b0443c3" class="div-block-2 logo-container navbar-sticky"><img
+      <div id="nav-sticky" data-w-id="a98e268d-91f7-4f71-6842-6c2e0b0443c3"
+        class="div-block-2 logo-container navbar-sticky"><img
           src="https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/601990b583696a37fb3195f3_Group 1.svg"
           loading="lazy" alt="" class="image-2" />
         <div class="nav nav-header">
@@ -1023,6 +1024,20 @@
 
         console.log(removedAttr[0], "sudah di remove")
       }
+
+      let lastScrollTop = 0;
+      let navbar = document.getElementById('nav-sticky');
+
+      window.addEventListener("scroll", function () {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+          navbar.style.top = "-100px"
+        } else {
+          navbar.style.top = "0"
+        }
+        lastScrollTop = scrollTop;
+      })
     });
   </script>
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->

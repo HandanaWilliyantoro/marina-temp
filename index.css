@@ -3818,7 +3818,7 @@
   }
 
   .nav.navbar-footer {
-    right: 10%;
+    right: 9%;
     width: 300px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -5264,7 +5264,7 @@
 
   .div-block-25 {
     position: relative;
-    height: 30vh;
+    height: 300px;
     max-width: 100%;
     background-color: #062640;
   }
@@ -5279,7 +5279,7 @@
   .text-block-25 {
     position: absolute;
     left: 10%;
-    top: 45%;
+    top: 40%;
     font-family: Gotham, sans-serif;
     color: #fff;
     font-size: 12px;
@@ -5289,7 +5289,7 @@
   .text-block-26 {
     position: absolute;
     left: 10%;
-    top: 60%;
+    top: 55%;
     width: 40%;
     font-family: Gotham, sans-serif;
     color: #fff;
@@ -5309,7 +5309,7 @@
     left: auto;
     top: auto;
     right: 10%;
-    bottom: 20%;
+    bottom: 25%;
     width: 250px;
   }
 
@@ -10219,4 +10219,8 @@
   .image-51.img-x {
     top: 30%;
   }
+}
+
+#nav-sticky {
+  transition: 0.5s;
 }
