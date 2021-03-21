@@ -10100,6 +10100,10 @@
     top: 1.5%;
   }
 
+  .div-block-31.cinema-1 {
+    top: 5%;
+  }
+
   .div-block-33.ap.ppwoekapokvp {
     top: 55%;
   }
@@ -10114,6 +10118,14 @@
 
   .div-block-31.leisure-academy.nc-1dfs.mobile-exhib {
     top: 32%;
+  }
+
+  .div-block-31.cinme-2.theater-blue-2 {
+    display: none;
+  }
+
+  .div-block-31.leisure-academy.leisure-2 {
+    display: none;
   }
 }
 
@@ -10162,11 +10174,34 @@
     top: 10%;
   }
 
+  .div-block-31.cinema-1 {
+    top: 5%;
+  }
+
   .div-block-31.leisure-academy.nc-1dfs.mobile-exhib {
     top: 32%;
   }
 
   .div-block-31.leisure-academy.leisure-2 {
+    top: 60%;
+  }
+
+  .div-block-31.cinme-2.theater-blue-2 {
+    display: none;
+  }
+
+  .div-block-31.leisure-academy.leisure-2 {
+    display: none;
+  }
+
+  .div-block-31.leisure-academy.watersport {
+    left: 10%;
+    top: 33%;
+  }
+
+  .div-block-31.leisure-academy.watersport.surf-house {
+    left: 10%;
+    width: 80%;
     top: 60%;
   }
 }
