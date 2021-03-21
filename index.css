@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 17 2021 20:59:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 20 2021 22:07:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -109,12 +109,7 @@
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
-  align-items: center;
-  position: fixed !important;
-  top: 0%;
-  background-color: #062640;
-  height: 100px;
-  z-index: 1000000;
+  align-items: flex-end;
 }
 
 .nav {
@@ -152,7 +147,7 @@
 
 .image-2 {
   width: 200px;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: 100px;
   font-size: 20px;
@@ -2015,16 +2010,52 @@
 
   .div-block.container-header {
     overflow: hidden;
-    height: 1300px;
+    height: 1275px;
+    padding-top: 0px;
     -o-object-fit: cover;
     object-fit: cover;
-    padding-top: 150px;
-    margin-top: 100px;
   }
 
   .heading-2.traversing-sea {
-    margin-top: 250px;
+    margin-top: 325px;
     font-size: 70px;
+  }
+
+  .div-block-2.logo-container {
+    position: static;
+    top: 0px;
+    height: 75px;
+    clear: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+
+  .div-block-2.logo-container.navbar-sticky {
+    position: fixed;
+    z-index: 200000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 1;
   }
 
   .nav.navbar-footer {
@@ -2033,6 +2064,10 @@
 
   .nav.nav-header {
     margin-right: 70px;
+  }
+
+  .image-2 {
+    margin-top: 0px;
   }
 
   .image-3 {
@@ -2233,6 +2268,12 @@
     line-height: 18px;
   }
 
+  .div-block-16 {
+    background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/6055ada6edaac9ff6c6e38c5_Marina%20Dewata_Resort%20(Revisi%20New)-02%201.svg");
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
   .div-block-18 {
     top: 14%;
   }
@@ -2330,7 +2371,10 @@
   }
 
   .heading-9 {
+    width: auto;
     height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
   .heading-10 {
@@ -2989,7 +3033,12 @@
   }
 
   .link.facility-nav {
+    margin-right: 50px;
+  }
+
+  .link.facility-nav.facil-navv {
     margin-right: 0px;
+    cursor: pointer;
   }
 
   .link-2.left-nav-about {
@@ -3131,6 +3180,17 @@
     top: 35%;
   }
 
+  .image-54 {
+    left: 40%;
+    width: 350px;
+  }
+
+  .image-55.nhnthdgnh {
+    left: 40%;
+    right: auto;
+    width: 700px;
+  }
+
   .heading-14 {
     width: 280px;
     font-size: 26px;
@@ -3148,12 +3208,31 @@
     width: 70%;
   }
 
+  .text-block-28.tb-ap {
+    width: 220px;
+  }
+
   .div-block-33.paintball {
     left: 70%;
   }
 
   .div-block-33.art-village.night-club {
     left: 70%;
+  }
+
+  .div-block-33.art-village.ndnsdnsd {
+    left: 70%;
+    width: 18%;
+  }
+
+  .div-block-33.exhibition-center {
+    bottom: 10%;
+    width: 25%;
+  }
+
+  .div-block-33.ap.ppwoekapokvp {
+    left: 10%;
+    top: 28%;
   }
 
   .link-7 {
@@ -3582,6 +3661,7 @@
   }
 
   .images.kgvjgfcjfc {
+    left: 95%;
     bottom: 50%;
   }
 
@@ -3682,17 +3762,13 @@
     font-weight: 400;
     cursor: pointer;
   }
+
+  .text-span-3 {
+    color: #c89000;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
-    top: 60% !important;
-  }
-  
-  .div-block-19.rororor {
-    top: 60% !important;
-  }
-
   .body {
     display: block;
     overflow: visible;
@@ -3701,8 +3777,9 @@
 
   .div-block.container-header {
     overflow: visible;
-    height: 1250px;
+    height: 1200px;
     max-width: 100%;
+    padding-top: 20px;
     background-position: 50% 0%;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -3711,13 +3788,17 @@
   }
 
   .heading-2.traversing-sea {
-    margin-top: 230px;
+    margin-top: 280px;
     opacity: 1;
     -webkit-transition-property: none;
     transition-property: none;
     font-family: 'Wulkan display', sans-serif;
     font-size: 80px;
     font-weight: 500;
+  }
+
+  .div-block-2.logo-container {
+    position: static;
   }
 
   .nav {
@@ -3754,7 +3835,7 @@
   }
 
   .image-2 {
-    width: 250px;
+    width: 200px;
   }
 
   .text-block-3 {
@@ -4182,8 +4263,8 @@
     display: block;
     height: 55vh;
     max-width: 100%;
-    background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/601a63142823bb10d3cafd73_14-01%202.png");
-    background-position: 50% 0%;
+    background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/6055ada6edaac9ff6c6e38c5_Marina%20Dewata_Resort%20(Revisi%20New)-02%201.svg");
+    background-position: 0px 0px;
     background-size: cover;
   }
 
@@ -4377,7 +4458,7 @@
   }
 
   .heading-9 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     font-family: 'Wulkan display', sans-serif;
     color: #ccc;
@@ -5098,14 +5179,12 @@
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv {
     bottom: 3%;
-    width: 70%;
-    left: 15%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.fdfdf._0998744 {
-    left: 25%;
-    bottom: 3%;
-    width: 50%;
+    left: 35%;
+    bottom: 2%;
+    width: 30%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd {
@@ -5125,12 +5204,13 @@
   }
 
   .text-block-24.more-desc-1._4-desc {
-    left: 20%;
+    left: 35%;
     bottom: 3%;
     width: 30%;
   }
 
   .text-block-24.more-desc-1._4-desc.vfvfgv.ddfdfdfd {
+    left: 20%;
     bottom: 3%;
     width: 60%;
   }
@@ -5167,12 +5247,14 @@
   }
 
   .text-block-24.axx.shippy.sfsff.fffrr {
-    bottom: 3%;
-    width: 70%;
-    left: 15%;
+    bottom: 2%;
   }
 
   .text-block-24.tb-ma {
+    bottom: 2%;
+  }
+
+  .text-block-24.tb-ma.dfdfdf {
     bottom: 2%;
   }
 
@@ -5257,7 +5339,7 @@
   }
 
   .link.facility-nav {
-    margin-right: 0px;
+    margin-right: 70px;
     font-size: 10px;
   }
 
@@ -5624,6 +5706,11 @@
     object-fit: cover;
   }
 
+  .image-54.nenek {
+    left: 35%;
+    height: 300px;
+  }
+
   .image-55 {
     position: absolute;
     left: auto;
@@ -5634,8 +5721,10 @@
   }
 
   .image-55.nhnthdgnh {
+    left: 35%;
     bottom: 0px;
-    height: 220px;
+    width: 800px;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -5649,11 +5738,15 @@
   }
 
   .text-block-28 {
-    width: 343px;
+    width: 270px;
     font-family: Gotham, sans-serif;
     color: #fff;
     font-size: 12px;
     line-height: 25px;
+  }
+
+  .text-block-28.tb-ap {
+    width: 281px;
   }
 
   .div-block-33 {
@@ -5667,6 +5760,10 @@
 
   .div-block-33.paintball {
     left: 72%;
+  }
+
+  .div-block-33.paintball.pf {
+    left: 70%;
   }
 
   .div-block-33.art-village {
@@ -5893,7 +5990,7 @@
   }
 
   .div-block-37 {
-    height: 1380px;
+    height: 1312px;
   }
 
   .div-block-37.cwme {
@@ -6024,16 +6121,26 @@
   .div-block.container-header {
     overflow: visible;
     height: auto;
+    padding-top: 100px;
     background-position: 100% 0%;
   }
 
   .heading-2.traversing-sea {
     display: block;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-bottom: 40px;
     font-size: 110px;
     line-height: 36px;
     letter-spacing: 1px;
+  }
+
+  .div-block-2.logo-container {
+    position: static;
+    height: auto;
+  }
+
+  .div-block-2.logo-container.navbar-sticky {
+    height: 150px;
   }
 
   .nav.navbar-footer {
@@ -6041,7 +6148,7 @@
   }
 
   .image-2 {
-    width: 350px;
+    width: 300px;
   }
 
   .image-3 {
@@ -6228,6 +6335,9 @@
   .div-block-16 {
     width: 100vw;
     height: 600px;
+    background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/6055ada6edaac9ff6c6e38c5_Marina%20Dewata_Resort%20(Revisi%20New)-02%201.svg");
+    background-position: 0px 0px;
+    background-size: cover;
   }
 
   .div-block-17 {
@@ -6362,6 +6472,10 @@
 
   .div-block-21 {
     right: 21%;
+  }
+
+  .div-block-21.dsdsdsd {
+    right: 24%;
   }
 
   .text-block-20 {
@@ -6601,6 +6715,8 @@
   .div-block-24 {
     width: 1920px;
     height: 1200px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
   }
 
   .heading-12 {
@@ -6702,7 +6818,7 @@
   }
 
   .block-business-center.block-wedding.block-farm.block-chapel {
-    bottom: 11%;
+    bottom: 10%;
     font-size: 30px;
   }
 
@@ -6723,7 +6839,7 @@
   }
 
   .block-business-center.block-wedding.block-farm.block-chapel.fish-marketo.fdvdfvdf {
-    bottom: 9%;
+    bottom: 10%;
   }
 
   .block-business-center.block-wedding.block-farm.block-chapel.cwme-title-block.soyd-title {
@@ -6817,9 +6933,9 @@
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv {
-    bottom: 3%;
-    width: 70%;
-    left: 15%;
+    left: 35%;
+    bottom: 2%;
+    width: 30%;
   }
 
   .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd.fffr {
@@ -6827,9 +6943,25 @@
     width: 70%;
   }
 
+  .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.dfdfdfrr.frfr {
+    left: 30%;
+    width: 40%;
+  }
+
+  .text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.dine-exp {
+    left: 25%;
+    width: 50%;
+  }
+
   .text-block-24.more-desc-1._4-desc {
     top: auto;
     bottom: 2%;
+  }
+
+  .text-block-24.more-desc-1._4-desc.vfvfgv.ddfdfdfd {
+    left: 30%;
+    bottom: 2%;
+    width: 40%;
   }
 
   .text-block-24.more-desc-1.ppopoo {
@@ -6856,6 +6988,7 @@
 
   .text-block-24.rfrff.porplvplvprlv {
     left: 32.5%;
+    bottom: 2%;
     width: 35%;
   }
 
@@ -6987,13 +7120,22 @@
     width: 500px;
   }
 
+  .image-54.nenek {
+    height: auto;
+  }
+
   .image-55 {
     right: 12%;
     width: 900px;
   }
 
   .image-55.nhnthdgnh {
-    height: 250px;
+    width: 1100px;
+    height: auto;
+  }
+
+  .heading-14 {
+    font-size: 35px;
   }
 
   .text-block-28 {
@@ -7002,7 +7144,25 @@
     line-height: 35px;
   }
 
+  .text-block-28.dfbdbfdf {
+    width: 85%;
+  }
+
+  .text-block-28.tb-ap {
+    width: 350px;
+  }
+
+  .div-block-33.paintball.pf {
+    top: 20%;
+  }
+
+  .div-block-33.art-village.ndnsdnsd {
+    top: 40%;
+    width: 20%;
+  }
+
   .div-block-33.exhibition-center {
+    bottom: 5%;
     width: 22%;
   }
 
@@ -7230,8 +7390,16 @@
     bottom: 47%;
   }
 
+  .image-69.cs-1-left.ktfjdjdjdjdd {
+    left: 3%;
+  }
+
   .images {
     left: 93%;
+  }
+
+  .images.kgvjgfcjfc {
+    left: 97%;
   }
 
   .heading-baru {
@@ -7436,6 +7604,8 @@
     overflow: visible;
     height: 100%;
     cursor: default;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .div-block {
@@ -7443,8 +7613,12 @@
   }
 
   .div-block.container-header {
+    position: static;
+    display: block;
     overflow: visible;
-    height: auto;
+    height: 1020px;
+    margin-top: 60px;
+    padding-top: 1px;
     background-color: transparent;
     background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/602fc1852ec1ea2a6c42cff6_Marina%20Dewata_Website%20Design%20(Vertical%20New)-02%207.png");
     background-position: 50% 0%;
@@ -7470,6 +7644,20 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .div-block-2.logo-container.navbar-sticky {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1000000;
+    width: 100vw;
+    height: 60px;
+    margin-bottom: 0px;
+    background-color: #062640;
+    opacity: 1;
   }
 
   .nav.navbar-footer {
@@ -7499,6 +7687,10 @@
 
   .nav.navbar-footer.navbar-header {
     top: 25%;
+  }
+
+  .nav.navbar-footer.navbar-header.kjknknk {
+    top: 30%;
   }
 
   .nav.nav-header {
@@ -7809,9 +8001,10 @@
   }
 
   .div-block-16 {
-    height: 25vh;
+    height: 150px;
+    background-image: url("https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/6055ada6edaac9ff6c6e38c5_Marina%20Dewata_Resort%20(Revisi%20New)-02%201.svg");
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .div-block-17 {
@@ -8957,6 +9150,7 @@
   }
 
   .div-container-blue-1.bluex1.go-blue-2 {
+    background-size: cover;
     cursor: auto;
   }
 
@@ -9038,6 +9232,10 @@
     top: 38%;
   }
 
+  .div-block-31.leisure-academy.nc-1dfs.mobile-exhib {
+    top: 35%;
+  }
+
   .div-block-31.cinme-2 {
     top: 35%;
   }
@@ -9090,6 +9288,10 @@
   .div-block-33.paintball {
     left: 10%;
     top: 68%;
+  }
+
+  .div-block-33.paintball.pf {
+    display: none;
   }
 
   .div-block-33.art-village {
@@ -9263,6 +9465,10 @@
     opacity: 1;
   }
 
+  .div-block-35.moree {
+    height: 96vh;
+  }
+
   .image-59 {
     width: 60px;
     height: 25px;
@@ -9429,12 +9635,14 @@
 
   .div-block-36 {
     position: fixed;
-    z-index: 10000;
+    z-index: 2000000000;
     display: none;
+    overflow: scroll;
     width: 100vw;
     height: 100vh;
+    padding-top: 0px;
     background-color: #062640;
-    opacity: 0;
+    opacity: 1;
   }
 
   .image-67 {
@@ -9443,6 +9651,10 @@
     top: 5%;
     width: 7.5%;
     cursor: pointer;
+  }
+
+  .image-67.rrr555ddd {
+    top: 8%;
   }
 
   .text-block-29 {
@@ -9459,6 +9671,10 @@
   .text-block-29.text-sub {
     top: 17.5%;
     font-size: 10px;
+  }
+
+  .text-block-29.text-sub._9u09u09j0j {
+    top: 22%;
   }
 
   .div-block-37 {
@@ -9576,6 +9792,7 @@
     right: 15px;
     display: block;
     width: 10px;
+    margin-bottom: 0px;
   }
 
   .images.kgvjgfcjfc {
@@ -9595,7 +9812,7 @@
     z-index: 2000;
     display: block;
     width: 100vw;
-    height: 100%;
+    height: 50px;
     margin-left: 0vw;
   }
 
@@ -9608,7 +9825,8 @@
   }
 
   .jtfjgjgcc.cs-2.dcscsdc {
-    top: 40%;
+    top: 38%;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.dcscsdc.rthrthrth {
@@ -9636,32 +9854,37 @@
   }
 
   .jtfjgjgcc.cs-2.dcscsdc.st09hjs9tjh9sjth9 {
-    top: 40%;
+    top: 38%;
     display: none;
   }
 
   .jtfjgjgcc.cs-2.dcscsdc.dvsdvsdvsdv {
-    top: 50%;
+    top: 48%;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.advadvasdva {
-    top: 50%;
+    top: 48%;
     display: none;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.efadfadsfadadfasdfa {
-    top: 50%;
+    top: 48%;
     display: none;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.vdvdvdvdv {
-    top: 50%;
+    top: 48%;
     display: none;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.aeadvadca {
-    top: 50%;
+    top: 48%;
     display: none;
+    height: 20px;
   }
 
   .jtfjgjgcc.cs-2.sfvsfdvsdfvsdfvdf {
@@ -9746,6 +9969,10 @@
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
+  }
+
+  .text-span-2 {
+    color: #c89000;
   }
 }
 @font-face {
@@ -9838,64 +10065,4 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-}
-
-.text-block-24.more-desc-1.sdfsdf.fvdfvdfvdfvdvf.fvdfvdfv.aaassdd.fffr {
-  bottom: 3%;
-}
-
-.div-block-19.rororor {
-  top: 50%;
-}
-
-.div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
-  top: 50%;
-}
-
-.heading-9 {
-  height: auto;
-}
-
-.heading-10 {
-  height: auto;
-}
-
-.image-69.cs-1-left, .image-69.cs-2-left, .images, .image-69 {
-  bottom: 40%;
-}
-
-@media screen and (max-width: 479px){
-  .div-block-17 {
-    height: 1200px;
-  }
-
-  .text-block-19 {
-    bottom: 15%;
-  }
-
-  .image-18 {
-    top: 35%;
-  }
-
-  .div-block-19.rororor {
-    top: 57%;
-  }
-  
-  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
-    top: 80%;
-  }
-
-  .text-block-19.text-resort.text-hotel.hotel-res.totot.asd.texter{
-    bottom: 43%;
-  }
-
-  .heading-7.header {
-    font-size: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px){
-  .heading-8.hotel-resort{
-    margin-top: 5px;
-  }
 }
