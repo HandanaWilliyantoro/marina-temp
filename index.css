@@ -10127,6 +10127,17 @@
   .div-block-31.leisure-academy.leisure-2 {
     display: none;
   }
+
+  .div-block-31.leisure-academy.watersport {
+    left: 10%;
+    top: 33%;
+  }
+
+  .div-block-31.leisure-academy.watersport.surf-house {
+    left: 10%;
+    width: 80%;
+    top: 60%;
+  }
 }
 
 @media screen and (min-width: 350px) and (max-width: 369px) {
