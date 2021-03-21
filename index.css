@@ -1463,7 +1463,7 @@
 
 .div-block-25 {
   position: relative;
-  height: 30vh;
+  height: 300px;
   max-width: 100%;
   background-color: #062640;
 }
@@ -1495,7 +1495,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 300px;
+  height: 100%;
 }
 
 .image-30 {
@@ -3024,7 +3024,7 @@
 
   .image-30 {
     position: absolute;
-    right: 9%;
+    right: 10%;
     bottom: 20%;
     width: 200px;
   }
