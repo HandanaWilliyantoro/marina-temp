@@ -757,7 +757,7 @@
 .div-block-17 {
   position: relative;
   width: 800vw;
-  height: 100vh;
+  height: 600px;
   max-width: 100%;
 }
 
@@ -855,7 +855,7 @@
 .text-block-19.text-resort {
   position: absolute;
   right: 5%;
-  bottom: 16%;
+  bottom: 25%;
   width: 25%;
   opacity: 1;
   font-family: Gotham, sans-serif;
@@ -2418,7 +2418,7 @@
 
   .image-19.block-resident.block-transit.block-service.block-spa.block-spaa.eeve {
     left: 133%;
-    top: 72%;
+    top: 74%;
     margin-bottom: 0px;
   }
 
@@ -2451,7 +2451,7 @@
   }
 
   .image-19.block-resident.block-frint.sdfbdfb.sdccc {
-    top: 37%;
+    top: 33%;
   }
 
   .div-block-21 {
@@ -3769,11 +3769,124 @@
   }
 }
 
+@media screen and (min-width: 1300px){
+  .image-19.block-resident.block-beach.fvsdbvsfb.kure, .image-19.block-resident.block-transit.block-service.block-spa.block-spaa.eeve, .image-19.block-resident.block-transit.block-floating.efwefwefw, .image-19.block-seaside.lrlrlrlrl {
+    left: 138%;
+  }
+
+  .div-block-17 {
+    position: relative;
+    width: 800vw;
+    height: 700px;
+    max-width: 100%;
+  }
+
+  .div-block-19.rororor {
+    top: 55%;
+  }
+
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 55%;
+  }
+
+  .container-facilities {
+    width: 100vw;
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1350px){
+  .image-19.block-resident.block-beach.fvsdbvsfb.kure, .image-19.block-resident.block-transit.block-service.block-spa.block-spaa.eeve, .image-19.block-resident.block-transit.block-floating.efwefwefw, .image-19.block-seaside.lrlrlrlrl {
+    left: 142%;
+  }
+
+  .div-block-17 {
+    position: relative;
+    width: 800vw;
+    height: 700px;
+    max-width: 100%;
+  }
+
+  .div-block-19.rororor {
+    top: 55%;
+  }
+
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 55%;
+  }
+
+  .container-facilities {
+    width: 100vw;
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .image-19.block-resident.block-beach.fvsdbvsfb.kure, .image-19.block-resident.block-transit.block-service.block-spa.block-spaa.eeve, .image-19.block-resident.block-transit.block-floating.efwefwefw, .image-19.block-seaside.lrlrlrlrl {
+    left: 145%;
+  }
+
+  .div-block-17 {
+    position: relative;
+    width: 800vw;
+    height: 700px;
+    max-width: 100%;
+  }
+
+  .container-facilities {
+    width: 100vw;
+    height: 700px;
+  }
+
+  .div-block-19.rororor {
+    top: 55%;
+  }
+
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 55%;
+  }
+
+}
+
+@media screen and (min-width: 1420px){
+  .image-19.block-resident.block-beach.fvsdbvsfb.kure, .image-19.block-resident.block-transit.block-service.block-spa.block-spaa.eeve, .image-19.block-resident.block-transit.block-floating.efwefwefw, .image-19.block-seaside.lrlrlrlrl {
+    left: 147%;
+  }
+
+  .div-block-19.rororor {
+    top: 55%;
+  }
+
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 55%;
+  }
+
+  .div-block-17 {
+    position: relative;
+    width: 800vw;
+    height: 700px;
+    max-width: 100%;
+  }
+
+  .container-facilities {
+    width: 100vw;
+    height: 700px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .body {
     display: block;
     overflow: visible;
     max-width: 100%;
+  }
+
+  .div-block-19.rororor {
+    top: 50%;
+  }
+
+  .div-block-19.nav-block-locate-2.ewewedw.sfbsdbfsdfb {
+    top: 50%;
   }
 
   .div-block.container-header {
@@ -4388,7 +4501,7 @@
   .text-block-19.text-resort {
     left: 67%;
     right: 5%;
-    bottom: 16%;
+    bottom: 25%;
     width: 25%;
     font-family: Gotham, sans-serif;
     color: #242424;
