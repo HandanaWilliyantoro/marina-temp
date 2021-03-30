@@ -59,6 +59,15 @@
   color: #242424;
 }
 
+.image-31 {
+  width: 100vw;
+  transition: transform .5s ease;
+}
+
+.image-31:hover{
+  transform: scale(1.1);
+}
+
 .heading-2 {
   position: static;
   margin-top: 300px;
@@ -10334,8 +10343,4 @@
   .image-51.img-x {
     top: 30%;
   }
-}
-
-#nav-sticky {
-  transition: 0.5s;
 }
