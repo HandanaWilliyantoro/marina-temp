@@ -55,6 +55,15 @@
   object-fit: cover;
 }
 
+.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+}
+
 .heading {
   color: #242424;
 }
@@ -62,10 +71,6 @@
 .image-31 {
   width: 100vw;
   transition: transform .5s ease;
-}
-
-.image-31:hover{
-  transform: scale(1.1);
 }
 
 .heading-2 {
