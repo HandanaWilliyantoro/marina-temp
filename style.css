@@ -167,6 +167,8 @@
   width: 450px;
   height: 250px;
   position: absolute;
+  object-position: 50% 70%;
+  object-fit: cover;
   top: 23%;
   transition: 0.5s ease-in;
   left: 4%;
