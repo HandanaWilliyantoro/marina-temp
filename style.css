@@ -58,10 +58,69 @@
 .peninda-island {
   position: absolute;
   width: 100px;
-  height: 100px;
+  height: auto;
   right: 15%;
   z-index: 2000;
   bottom: 20%;
+}
+
+.peninda-island > p {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  line-height: 25px;
+  transition: 0.2s ease-in;
+}
+
+.site-is-located {
+  position: absolute;
+  height: auto;
+  right: 3%;
+  z-index: 2000;
+  bottom: 34%;
+}
+
+.site-is-located > p {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 32px;
+}
+
+.international-airport {
+  position: absolute;
+  height: auto;
+  right: 45%;
+  z-index: 2000;
+  bottom: 20%;
+}
+
+.international-airport > p {
+  color: #fff;
+  font-size: 32px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 40px;
+  transition: 0.2s ease-in;
+}
+
+.international-airport > h6 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 10px;
+  transition: 0.2s ease-in;
 }
 
 .ubud {
@@ -72,20 +131,92 @@
   bottom: 52%;
 }
 
+.ubud > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 15px;
+  transition: 0.2s ease-in;
+
+}
+
+.ubud > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 3px;
+  transition: 0.2s ease-in;
+
+}
+
 .nusa-dua {
   position: absolute;
   width: 120px;
-  height: 100px;
+  height: auto;
   right: 34%;
-  bottom: 5%;
+  bottom: 8%;
+}
+
+.nusa-dua > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 15px;
+  transition: 0.2s ease-in;
+
+}
+
+.nusa-dua > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  transition: 0.2s ease-in;
+
+  line-height: 3px;
 }
 
 .uluwatu {
   position: absolute;
   width: 120px;
-  height: 100px;
+  height: auto;
   right: 45%;
-  bottom: 3%;
+  bottom: 5%;
+}
+
+.uluwatu > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  transition: 0.2s ease-in;
+
+  line-height: 15px;
+}
+
+.uluwatu > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  transition: 0.2s ease-in;
+
+  text-align: left;
+  line-height: 3px;
 }
 
 .mount-agung {
@@ -96,12 +227,60 @@
   bottom: 75%;
 }
 
+.mount-agung > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  transition: 0.2s ease-in;
+
+  line-height: 15px;
+}
+
+.mount-agung > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  transition: 0.2s ease-in;
+
+  line-height: 3px;
+}
+
 .lempuyang {
   position: absolute;
   width: 120px;
   height: 100px;
   right: 2%;
   bottom: 60%;
+}
+
+.lempuyang > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  transition: 0.2s ease-in;
+
+  text-align: left;
+  line-height: 15px;
+}
+
+.lempuyang > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  transition: 0.2s ease-in;
+
+  text-align: left;
+  line-height: 3px;
 }
 
 .seminyak {
@@ -112,6 +291,30 @@
   bottom: 32%;
 }
 
+.seminyak > p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  transition: 0.2s ease-in;
+
+  line-height: 15px;
+}
+
+.seminyak > h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 3px;
+  transition: 0.2s ease-in;
+
+}
+
 .img-peninda {
   opacity: 0;
   width: 450px;
@@ -119,6 +322,8 @@
   position: absolute;
   top: 23%;
   transition: 0.5s ease-in;
+  object-position: 10% 30%;
+  object-fit: cover;
   left: 4%;
 }
 
@@ -159,6 +364,8 @@
   position: absolute;
   top: 23%;
   transition: 0.5s ease-in;
+  object-position: 10% 50%;
+  object-fit: cover;
   left: 4%;
 }
 

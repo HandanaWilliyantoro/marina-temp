@@ -11,64 +11,6 @@
   <meta content="Webflow" name="generator" />
   <link href="./style.css" rel="stylesheet" type="text/css" />
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
-  <script type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);
-    function magnify(imgID, zoom) {
-      zoom = 1.5
-      var img, glass, w, h, bw;
-      img = document.getElementById(imgID);
-      /*create magnifier glass:*/
-      glass = document.createElement("DIV");
-      glass.setAttribute("class", "img-magnifier-glass");
-      /*insert magnifier glass:*/
-      img.parentElement.insertBefore(glass, img);
-      /*set background properties for the magnifier glass:*/
-      glass.style.backgroundImage = "url('" + img.src + "')";
-      glass.style.backgroundRepeat = "no-repeat";
-      glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
-      bw = 3;
-      w = glass.offsetWidth / 2;
-      h = glass.offsetHeight / 2;
-      /*execute a function when someone moves the magnifier glass over the image:*/
-      glass.addEventListener("mousemove", moveMagnifier);
-      img.addEventListener("mousemove", moveMagnifier);
-      /*and also for touch screens:*/
-      glass.addEventListener("touchmove", moveMagnifier);
-      img.addEventListener("touchmove", moveMagnifier);
-      function moveMagnifier(e) {
-        var pos, x, y;
-        /*prevent any other actions that may occur when moving over the image*/
-        e.preventDefault();
-        /*get the cursor's x and y positions:*/
-        pos = getCursorPos(e);
-        x = pos.x;
-        y = pos.y;
-        /*prevent the magnifier glass from being positioned outside the image:*/
-        if (x > img.width - (w / zoom)) { x = img.width - (w / zoom); }
-        if (x < w / zoom) { x = w / zoom; }
-        if (y > img.height - (h / zoom)) { y = img.height - (h / zoom); }
-        if (y < h / zoom) { y = h / zoom; }
-        /*set the position of the magnifier glass:*/
-        glass.style.left = (x - w) + "px";
-        glass.style.top = (y - h) + "px";
-        /*display what the magnifier glass "sees":*/
-        glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
-      }
-      function getCursorPos(e) {
-        var a, x = 0, y = 0;
-        e = e || window.event;
-        /*get the x and y positions of the image:*/
-        a = img.getBoundingClientRect();
-        /*calculate the cursor's x and y coordinates, relative to the image:*/
-        x = e.pageX - a.left;
-        y = e.pageY - a.top;
-        /*consider any page scrolling:*/
-        x = x - window.pageXOffset;
-        y = y - window.pageYOffset;
-        return { x: x, y: y };
-      }
-    }
-  </script>
-  <link href="./site-icon.png" rel="shortcut icon" type="image/x-icon" />
   <style>
     @media screen and (min-width: 1440px) {
       .div-block-37 {
@@ -169,30 +111,54 @@
     </div>
   </div>
   <div style="position: relative;" className="img-magnifier-container">
-    <img id="myimage"
-      src="https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/604a1b704a29482a4e3593c5_Marina Dewata_Website Location (Revisi New)-02 3.svg"
-      loading="lazy" alt="" class="image-31" />
-    <a class="peninda-island">
-
-    </a>
-    <a class="ubud">
-
-    </a>
-    <a class="nusa-dua">
-
-    </a>
-    <a class="uluwatu">
-
-    </a>
-    <a class="mount-agung">
-
-    </a>
-    <a class="lempuyang">
-
-    </a>
-    <a class="seminyak">
-
-    </a>
+    <img id="myimage" src="./marina-dewata-map.png" loading="lazy" alt="" class="image-31" />
+    <div class="peninda-island">
+      <p>PENINDA ISLAND</p>
+    </div>
+    <div class="ubud">
+      <p>UBUD</p>
+      <h6>28 KM</h6>
+      <h6>9 MIN</h6>
+    </div>
+    <div class="nusa-dua">
+      <p>NUSA DUA</p>
+      <h6>47 KM</h6>
+      <h6>1 HR</h6>
+    </div>
+    <div class="uluwatu">
+      <p>ULUWATU</p>
+      <h6>60 KM</h6>
+      <h6>1 HR 3 MIN</h6>
+    </div>
+    <div class="mount-agung">
+      <p>MT. AGUNG</p>
+      <h6>31 KM</h6>
+      <h6>1 HR 3 MIN</h6>
+    </div>
+    <div class="lempuyang">
+      <p>LEMPUYANG</p>
+      <h6>35 KM</h6>
+      <h6>1 HR 3 MIN</h6>
+    </div>
+    <div class="seminyak">
+      <p>SEMINYAK</p>
+      <h6>44 KM</h6>
+      <h6>1 HR</h6>
+    </div>
+    <div class="site-is-located">
+      <p>SITE IS LOCATED<br />
+        APPROX 1.3HR (48KM)<br />
+        FROM THE AIRPORT</p>
+    </div>
+    <div class="international-airport">
+      <p>NGURAH RAI<br />
+        INTERNATIONAL AIRPORT</p>
+      <h6>48 KM</h6>
+      <h6>1 HR 3 MIN</h6>
+    </div>
+    <div>
+      <p></p>
+    </div>
     <div class="peninda-island-img">
       <img class="img-peninda" src="./peninda-pic.jpg" alt="peninda island">
     </div>
@@ -1155,96 +1121,125 @@
     $(document).ready(function () {
       $(".w-webflow-badge").removeClass("w-webflow-badge").empty();
 
-      if (window.screen.availWidth < 480) {
-        let removedAttr = document.querySelectorAll('[data-w-id="a98e268d-91f7-4f71-6842-6c2e0b0443c3"]')
-        console.log(removedAttr[0], "remove")
+      let removedAttr = document.querySelectorAll('[data-w-id="a98e268d-91f7-4f71-6842-6c2e0b0443c3"]')
 
-        removedAttr[0].removeAttribute("data-w-id")
+      removedAttr[0].removeAttribute("data-w-id")
 
-        removedAttr[0].style.backgroundColor = "#062640"
+      removedAttr[0].style.backgroundColor = "linear-gradient(rgba(11,75,127,1) 25%,rgba(11,75,127,0.5) 75%, rgba(11,75,127,0.2) 95%, rgba(11,75,127,0) 100%)"
 
-        removedAttr[0].style.willChange = null
+      removedAttr[0].style.willChange = null
 
-        if (window.screen.availWidth > 480) {
-          // Peninda
+      if (window.screen.availWidth > 480) {
+        // Peninda
 
-          $('.peninda-island').hover(function () {
-            $('.img-peninda').css('opacity', "1")
-          })
+        $('.peninda-island').hover(function () {
+          $('.img-peninda').css('opacity', "1")
+          $(".peninda-island > p").css('color', "black")
+        })
 
-          $('.peninda-island').mouseleave(function () {
-            $('.img-peninda').css('opacity', "0")
-          })
+        $('.peninda-island').mouseleave(function () {
+          $('.img-peninda').css('opacity', "0")
+          $(".peninda-island > p").css('color', "#fff")
+        })
 
-          // Ubud
+        // Ubud
 
-          $('.ubud').hover(function () {
-            $('.img-ubud').css('opacity', "1")
-          })
+        $('.ubud').hover(function () {
+          $('.img-ubud').css('opacity', "1")
+          $(".ubud > p").css('color', "black")
+          $(".ubud > h6").css('color', "black")
+        })
 
-          $('.ubud').mouseleave(function () {
-            $('.img-ubud').css('opacity', "0")
-          })
+        $('.ubud').mouseleave(function () {
+          $('.img-ubud').css('opacity', "0")
+          $(".ubud > p").css('color', "#fff")
+          $(".ubud > h6").css('color', "#fff")
+        })
 
-          // Nusa Dua
+        // Nusa Dua
 
-          $('.nusa-dua').hover(function () {
-            $('.img-nusa-dua').css('opacity', "1")
-          })
+        $('.nusa-dua').hover(function () {
+          $('.img-nusa-dua').css('opacity', "1")
+          $(".nusa-dua > p").css('color', "black")
+          $(".nusa-dua > h6").css('color', "black")
+        })
 
-          $('.nusa-dua').mouseleave(function () {
-            $('.img-nusa-dua').css('opacity', "0")
-          })
+        $('.nusa-dua').mouseleave(function () {
+          $('.img-nusa-dua').css('opacity', "0")
+          $(".nusa-dua > p").css('color', "#fff")
+          $(".nusa-dua > h6").css('color', "#fff")
+        })
 
-          // Uluwatu
+        // Uluwatu
 
-          $('.uluwatu').hover(function () {
-            $('.img-uluwatu').css('opacity', "1")
-          })
+        $('.uluwatu').hover(function () {
+          $('.img-uluwatu').css('opacity', "1")
+          $(".uluwatu > p").css('color', "black")
+          $(".uluwatu > h6").css('color', "black")
+        })
 
-          $('.uluwatu').mouseleave(function () {
-            $('.img-uluwatu').css('opacity', "0")
-          })
+        $('.uluwatu').mouseleave(function () {
+          $('.img-uluwatu').css('opacity', "0")
+          $(".uluwatu > p").css('color', "#fff")
+          $(".uluwatu > h6").css('color', "#fff")
+        })
 
-          // Mount agung
+        // Mount agung
 
-          $('.mount-agung').hover(function () {
-            $('.img-mount-agung').css('opacity', "1")
-          })
+        $('.mount-agung').hover(function () {
+          $('.img-mount-agung').css('opacity', "1")
+          $(".mount-agung > p").css('color', "black")
+          $(".mount-agung > h6").css('color', "black")
+        })
 
-          $('.mount-agung').mouseleave(function () {
-            $('.img-mount-agung').css('opacity', "0")
-          })
+        $('.mount-agung').mouseleave(function () {
+          $('.img-mount-agung').css('opacity', "0")
+          $(".mount-agung > p").css('color', "#fff")
+          $(".mount-agung > h6").css('color', "#fff")
+        })
 
-          // Lampuyang
+        // Lampuyang
 
-          $('.lempuyang').hover(function () {
-            $('.img-lempuyang').css('opacity', "1")
-          })
+        $('.lempuyang').hover(function () {
+          $('.img-lempuyang').css('opacity', "1")
+          $(".lempuyang > p").css('color', "black")
+          $(".lempuyang > h6").css('color', "black")
+        })
 
-          $('.lempuyang').mouseleave(function () {
-            $('.img-lempuyang').css('opacity', "0")
-          })
+        $('.lempuyang').mouseleave(function () {
+          $('.img-lempuyang').css('opacity', "0")
+          $(".lempuyang > p").css('color', "#fff")
+          $(".lempuyang > h6").css('color', "#fff")
+        })
 
-          // Saminyak
+        // Saminyak
 
-          $('.seminyak').hover(function () {
-            $('.img-seminyak').css('opacity', "1")
-          })
+        $('.seminyak').hover(function () {
+          $('.img-seminyak').css('opacity', "1")
+          $(".seminyak > p").css('color', "black")
+          $(".seminyak > h6").css('color', "black")
+        })
 
-          $('.seminyak').mouseleave(function () {
-            $('.img-seminyak').css('opacity', "0")
-          })
-        }
-
+        $('.seminyak').mouseleave(function () {
+          $('.img-seminyak').css('opacity', "0")
+          $(".seminyak > p").css('color', "#fff")
+          $(".seminyak > h6").css('color', "#fff")
+        })
       }
+
     });
   </script>
-
   <script>
-    /* Initiate Magnify Function
-    with the id of the image, and the strength of the magnifier glass:*/
-    magnify("myimageindo", 3);
+    var anchorPenindaIslan = document.getElementsByClassName("peninda-island");
+    var divPenindaIslan = document.getElementsByClassName("img-peninda");
+
+    anchorPenindaIslan.addEventListener("mouseover", function () {
+      divPenindaIslan.style.opacity = 1;
+    });
+
+    anchorPenindaIslan.addEventListener("mouesout", function () {
+      divPenindaIslan.style.opacity = 0;
+    });
   </script>
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>

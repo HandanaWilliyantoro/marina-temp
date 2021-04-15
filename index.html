@@ -116,29 +116,53 @@
     </div>
   </div>
   <div style="position: relative;" className="img-magnifier-container">
-    <img id="myimage"
-      src="https://uploads-ssl.webflow.com/60192ec95e4e0ed024a387e0/604a1b704a29482a4e3593c5_Marina Dewata_Website Location (Revisi New)-02 3.svg"
-      loading="lazy" alt="" class="image-31" />
+    <img id="myimage" src="./marina-dewata-map.png" loading="lazy" alt="" class="image-31" />
     <div class="peninda-island">
-
+      <p>PENINDA ISLAND</p>
     </div>
     <div class="ubud">
-
+      <p>UBUD</p>
+      <h6>28 KM</h6>
+      <h6>9 MIN</h6>
     </div>
     <div class="nusa-dua">
-
+      <p>NUSA DUA</p>
+      <h6>47 KM</h6>
+      <h6>1 HR</h6>
     </div>
     <div class="uluwatu">
-
+      <p>ULUWATU</p>
+      <h6>60 KM</h6>
+      <h6>1 HR 3 MIN</h6>
     </div>
     <div class="mount-agung">
-
+      <p>MT. AGUNG</p>
+      <h6>31 KM</h6>
+      <h6>1 HR 3 MIN</h6>
     </div>
     <div class="lempuyang">
-
+      <p>LEMPUYANG</p>
+      <h6>35 KM</h6>
+      <h6>1 HR 3 MIN</h6>
     </div>
     <div class="seminyak">
-
+      <p>SEMINYAK</p>
+      <h6>44 KM</h6>
+      <h6>1 HR</h6>
+    </div>
+    <div class="site-is-located">
+      <p>SITE IS LOCATED<br />
+        APPROX 1.3HR (48KM)<br />
+        FROM THE AIRPORT</p>
+    </div>
+    <div class="international-airport">
+      <p>NGURAH RAI<br />
+        INTERNATIONAL AIRPORT</p>
+      <h6>48 KM</h6>
+      <h6>1 HR 3 MIN</h6>
+    </div>
+    <div>
+      <p></p>
     </div>
     <div class="peninda-island-img">
       <img class="img-peninda" src="./peninda-pic.jpg" alt="peninda island">
@@ -1072,70 +1096,96 @@
 
         $('.peninda-island').hover(function () {
           $('.img-peninda').css('opacity', "1")
+          $(".peninda-island > p").css('color', "black")
         })
 
         $('.peninda-island').mouseleave(function () {
           $('.img-peninda').css('opacity', "0")
+          $(".peninda-island > p").css('color', "#fff")
         })
 
         // Ubud
 
         $('.ubud').hover(function () {
           $('.img-ubud').css('opacity', "1")
+          $(".ubud > p").css('color', "black")
+          $(".ubud > h6").css('color', "black")
         })
 
         $('.ubud').mouseleave(function () {
           $('.img-ubud').css('opacity', "0")
+          $(".ubud > p").css('color', "#fff")
+          $(".ubud > h6").css('color', "#fff")
         })
 
         // Nusa Dua
 
         $('.nusa-dua').hover(function () {
           $('.img-nusa-dua').css('opacity', "1")
+          $(".nusa-dua > p").css('color', "black")
+          $(".nusa-dua > h6").css('color', "black")
         })
 
         $('.nusa-dua').mouseleave(function () {
           $('.img-nusa-dua').css('opacity', "0")
+          $(".nusa-dua > p").css('color', "#fff")
+          $(".nusa-dua > h6").css('color', "#fff")
         })
 
         // Uluwatu
 
         $('.uluwatu').hover(function () {
           $('.img-uluwatu').css('opacity', "1")
+          $(".uluwatu > p").css('color', "black")
+          $(".uluwatu > h6").css('color', "black")
         })
 
         $('.uluwatu').mouseleave(function () {
           $('.img-uluwatu').css('opacity', "0")
+          $(".uluwatu > p").css('color', "#fff")
+          $(".uluwatu > h6").css('color', "#fff")
         })
 
         // Mount agung
 
         $('.mount-agung').hover(function () {
           $('.img-mount-agung').css('opacity', "1")
+          $(".mount-agung > p").css('color', "black")
+          $(".mount-agung > h6").css('color', "black")
         })
 
         $('.mount-agung').mouseleave(function () {
           $('.img-mount-agung').css('opacity', "0")
+          $(".mount-agung > p").css('color', "#fff")
+          $(".mount-agung > h6").css('color', "#fff")
         })
 
         // Lampuyang
 
         $('.lempuyang').hover(function () {
           $('.img-lempuyang').css('opacity', "1")
+          $(".lempuyang > p").css('color', "black")
+          $(".lempuyang > h6").css('color', "black")
         })
 
         $('.lempuyang').mouseleave(function () {
           $('.img-lempuyang').css('opacity', "0")
+          $(".lempuyang > p").css('color', "#fff")
+          $(".lempuyang > h6").css('color', "#fff")
         })
 
         // Saminyak
 
         $('.seminyak').hover(function () {
           $('.img-seminyak').css('opacity', "1")
+          $(".seminyak > p").css('color', "black")
+          $(".seminyak > h6").css('color', "black")
         })
 
         $('.seminyak').mouseleave(function () {
           $('.img-seminyak').css('opacity', "0")
+          $(".seminyak > p").css('color', "#fff")
+          $(".seminyak > h6").css('color', "#fff")
         })
       }
 
